@@ -14,9 +14,9 @@ def check_numbers(mode):
                     valid_input = False
                     break
                 if int(val) % 2 == 0:
-                    results.append("\nEven")
+                    results.append("Even")
                 else:
-                    results.append("\nOdd")
+                    results.append("Odd")
             if valid_input:
                 for result in results:
                     if result == "\nEven":
